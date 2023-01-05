@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for nav bar */
+.primary{
+    color: #FD6E0A;
+}
+
+.navh{
+    font-weight:800;
+    font-size: 45px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    
+}
+
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+}
+.nav-menu ul li{
+    margin-left: 55px;
+}
