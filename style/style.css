@@ -4,6 +4,20 @@
     font-family: 'Miltonian Tattoo', cursive;
 }
 
+a{
+    text-decoration: none;
+
+}
+
+.btn-colour{
+    color: white;
+}
+ button:hover{
+    position:relative;
+    border: 2px solid black;
+    background-color: black;
+  color: white;
+}
 .header{
     background-color: #FFF8F3;
     background-image: url('/images/header_bg.png'),url('/images/developer.png');
@@ -37,6 +51,8 @@ nav{
 
 .nav-menu ul{
     display: flex;
+    font-size: 20px;
+    font-weight: 400;
     list-style: none;
     align-items: center;
 }
