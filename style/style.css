@@ -202,7 +202,7 @@ main{
     font-size: 20px;
     color: #757575;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom:  20px;
 }
 .description{
     font-weight: 400;
@@ -214,4 +214,42 @@ main{
    text-align: center;
    margin-top: 50px;
    margin-bottom: 113px;
+}
+
+/* footer style */
+.contract{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    gap: 117px;
+}
+
+.contract input,textarea{
+    margin-bottom: 24px;
+    gap: 24px;
+    border: 0;
+}
+
+input[type="text"],input[type="email"],textarea{
+    height: 50px;
+    padding: 18px 30px;
+    width: 100%;
+}
+
+.footer-title{
+    font-family: 'New Rocker', cursive;
+    font-weight: 700px;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+.footer-section{
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contract .footer-one a img{
+    padding-right: 22px;
 }
