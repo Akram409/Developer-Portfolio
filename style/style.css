@@ -92,7 +92,7 @@ main{
     text-align: center;
     font-weight: 700px;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .section-description{
@@ -154,4 +154,38 @@ main{
     color: #181818;
     margin-top: 130px;
     margin-bottom: 113px;
+}
+
+/* Resume-Style */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.resume-btn{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 113px;
 }
