@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Miltonian Tattoo', cursive;
 }
 
 .header{
@@ -21,6 +22,7 @@
 }
 
 .navh{
+    font-family: 'New Rocker', cursive;
     font-weight:800;
     font-size: 45px;
     
@@ -54,7 +56,11 @@ nav{
 }
 
 .banner{
-    margin: 0 200px;
+    /* margin: 0 200px; */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 200px;
+    margin-right: 0;
     display: flex;
     align-items: center;
 }
@@ -62,15 +68,18 @@ nav{
 .banner-title{
     font-weight: 600;
     font-size: 45px;
+    font-family: 'New Rocker', cursive;
 }
 .banner-text{
     font-weight: 700;
     font-size: 85px;
+    font-family: 'New Rocker', cursive;
     margin-top: 5px;
     margin-bottom: 20px;
 } 
 
 .banner-description{
+    font-family: 'Miltonian Tattoo', cursive;
     color: #757575;
     margin-bottom: 25px;
 }
@@ -89,6 +98,7 @@ main{
 }
 
 .section-title{
+    font-family: 'New Rocker', cursive;
     text-align: center;
     font-weight: 700px;
     font-size: 35px;
